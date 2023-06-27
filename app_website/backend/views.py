@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 
-from models import App
+from .models import App
 from backend.serializers import CustomTokenObtainPairSerializer
 from .serializers import UserSerializer,AddAppSerializer
 from rest_framework import viewsets
